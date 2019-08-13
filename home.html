@@ -1,0 +1,156 @@
+<html>
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  <style>
+	.header{
+		background-color:tomato;
+		padding: 10px;
+		text-align: center;
+		font-family:"Times New Roman";
+		color:white;
+	}
+	.navbar{
+		margin-bottom: 0;
+		letter-spacing: 2px;
+		opacity:0.9;
+	}
+	.carousel-inner img{
+		width: 100%;
+		margin: auto;
+		min-height:200px;
+	}
+	.row.content{
+		height:450px
+	}
+	.sidenav{
+		padding-top:20px;
+		background-color:#f1f1f1;
+		height:100%;
+		overflow-x:hidden;
+		font-size:20px;
+		z-index:1;
+		display:block;
+	}
+	footer{
+		background-color:#555;
+		color:white;
+		padding:15px;
+	}
+  
+  </style>
+</head>
+<body>
+	<div class="header"><h2><b>SHREE AMDAVADI SHRIMANI SONI SAMAJ</b></h2></div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#home"><b>HOME</b></a></li>
+        <li><a href="#news"><b>NEWS</b></a></li>
+        <li><a href="#events"><b>EVENTS</b></a></li>
+        <li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>ADMIN</b>
+				<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Address Stickers</a></li>
+						<li><a href="#">Address Book</a></li>
+					</ul>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators" >
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+	 <div class="carousel-inner">
+		<div class="item active">
+			<img src="pic1.jpg"  style="width:100%; height:65%;">
+		</div>
+
+		<div class="item">
+			<img src="pic2.jpg"  style="width:100%; height:65%;">
+		</div>
+    
+		<div class="item">
+			<img src="pic3.jpg" style="width:100%; height:65%;">
+		</div>
+	</div>
+	 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>	
+<div class="container-fluid text-center">
+	<div class="row content">
+		<div class="col-sm-2 sidenav">
+		
+			<div class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Socities
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Balaji</a></li>
+					<li><a href="#">Shrinathji</a></li>
+				</ul>
+			</div>
+			<br>
+			<div class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Mandals
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Yuva mandal</a></li>
+					<li><a href="#">Mahila mandal</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="col-sm-8 text-left">
+			<h1>Welcome !!</h1>
+			<p>Shree Ahmdabadi Shrimani Soni Samaj </p>
+			<hr>
+			<h3>something</h3>
+			<p>....</p>
+		</div>
+		<div class="col-sm-2 sidenav">
+			<div class="well">
+				<p><b>ADVERTICES</b></p>
+			</div>
+			<div class="well">
+				<p><b>ADVERTICES</b></p>
+			</div>
+			<div class="well">
+				<p><b>ADVERTICES</b></p>
+			</div>
+		</div>	
+	</div>
+</div>
+<footer class="container-fluid text-center">
+  <p><b>Contact Us</b></p>
+  <h5>Email id:abc@gmail.com</h5>
+  <h5>Contact no:98240401112</h5>
+  <h5>Facebook :<a href ="https://www.facebook.com/groups/pachchigar/?ref=bookmarks">Visit us on facebook</a></h5>
+  
+</footer>
+	
+</body>
